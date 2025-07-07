@@ -10,4 +10,3 @@ response = openai.ChatCompletion.create(
 )
 print("A")
 print(response['choices'][0]['message']['content'])
-
