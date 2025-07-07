@@ -1,0 +1,8 @@
+openai
+langchain
+faiss-cpu
+chromadb
+autogen
+crewai
+streamlit
+tiktoken
