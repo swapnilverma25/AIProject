@@ -6,3 +6,6 @@ autogen
 crewai
 streamlit
 tiktoken
+google-cloud-aiplatform
+python-dotenv
+langchain-community
