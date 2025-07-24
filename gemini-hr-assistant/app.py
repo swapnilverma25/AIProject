@@ -1,8 +1,8 @@
-from langchain.document_loaders import TextLoader
+from langchain_community.document_loaders import TextLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.vectorstores import Chroma
-from langchain.embeddings import VertexAIEmbeddings
-from langchain.chat_models import ChatVertexAI
+from langchain_community.vectorstores import Chroma
+from langchain_google_vertexai import VertexAIEmbeddings
+from langchain_google_vertexai import ChatVertexAI
 from langchain.chains import RetrievalQA
 import os
 
